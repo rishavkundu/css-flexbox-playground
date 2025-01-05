@@ -1,8 +1,4 @@
-# CSS Flexbox Playground
-
-An interactive tool for learning and experimenting with CSS Flexbox properties in real-time.
-
-## Overview
+# Overview
 
 CSS Flexbox Playground allows you to experiment with and understand CSS Flexbox properties through an interactive interface. Adjust flex-direction, justify-content, align-items, and flex-wrap to see their effects on layout instantly. Copy the generated CSS code for use in your projects.
 
