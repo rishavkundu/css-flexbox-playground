@@ -1,19 +1,19 @@
 :root {
-    --bg-primary: #EEEEEE;
-    --bg-secondary: #FFFFFF;
-    --bg-code: #DDDDDD;
-    --text-primary: #666666;
-    --text-secondary: #777777;
-    --border-color: #DDDDDD;
-    --preview-bg: #FFFFFF;
+    --bg-primary: #0A0A0A;
+    --bg-secondary: #111111;
+    --bg-code: #222222;
+    --text-primary: #FFFFFF;
+    --text-secondary: #FFFFFF;
+    --border-color: #333333;
+    --preview-bg: #0A0A0A;
 }
 
 [data-theme="dark"] {
     --bg-primary: #0A0A0A;
     --bg-secondary: #111111;
     --bg-code: #222222;
-    --text-primary: #999999;
-    --text-secondary: #777777;
+    --text-primary: #FFFFFF;
+    --text-secondary: #FFFFFF;
     --border-color: #333333;
     --preview-bg: #0A0A0A;
 }
@@ -28,7 +28,7 @@
 }
 
 body {
-    font-family: system-ui, -apple-system, sans-serif;
+    font-family: "Geist Mono", monospace;
     margin: 0;
     padding: var(--spacing-md);
     display: flex;
@@ -178,15 +178,20 @@ select {
 }
 
 h1 {
+    font-family: "Geist Mono", monospace;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 0.25rem;
     padding-right: 3rem;
+    opacity: 0.95;
 }
 
-.description {
+.description, p {
+    font-family: "Geist Mono", monospace;
     color: var(--text-secondary);
     margin-bottom: 2rem;
+    font-weight: 400;
+    opacity: 0.9;
 }
 
 .controls {
@@ -203,7 +208,8 @@ h1 {
 }
 
 label {
-    font-weight: 500;
+    font-family: "Geist Mono", monospace;
+    font-weight: 700;
 }
 
 select {
